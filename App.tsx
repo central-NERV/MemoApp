@@ -2,6 +2,14 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  let test: number = 1
+  test = 2
+  test = 'test'
+
+  const testFunc = (): string => {
+    return 'test'
+  }
+
   return (
     <View style={styles.container}>
       <Text>Open up App.tsx to start working on your app!!!</Text>
